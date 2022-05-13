@@ -166,6 +166,8 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the BSD 3-Clause License. See `LICENSE.txt` for more information.
 
+Please refer to the TDMS reader directory to view the accompanying [`license.txt`](https://github.com/SolarSpec/LoadTDMSfunctions/blob/main/Matlab%20TDMS%20reader/license.txt)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
