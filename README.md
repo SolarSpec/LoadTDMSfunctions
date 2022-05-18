@@ -118,7 +118,7 @@ Make sure MATLAB is installed. It is available for download in the Software Dist
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-No screenshots of use yet. Comments in each script are self explanatory but examples will be added in the future if there is any confusion or assisstance needed
+No screenshots of use yet. Comments in each script are self explanatory but examples will be added in the future if there is any confusion or assistance needed
 <!-- Here is a simple example of the app used on a small dataset. The filtering is turned on and we'd like to export all the kinetics data by clicking the "Export CSV Data" button. We can view where the file was saved in the text on the left panel and can then open the CSV file to view the data.
 
 _Please note that the bottom of each CSV contains an extra row of information attributed to the BackgroundLevel data of each TDMS file. This is simply a convention to carry this data if it is loaded back into the PIAS app. If one does not intend to load it back into the app, you may delete this row or store the variables somewhere else in the CSV as to not lose it for future use._
