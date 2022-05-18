@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/SolarSpec/LoadTDMSfunctions">
+  <a href="https://github.com/SolarSpec/ScriptsAndFunctions">
     <img src="GeneralScripts_resources/logo.png" alt="SolarSpec" width="160" height="120">
   </a>
 
@@ -22,14 +22,14 @@
   <p align="center">
     Useful scripts alongside base MATLAB functions for loading TDMS files with TAS/TAM data.
     <br />
-    <a href="https://github.com/SolarSpec/LoadTDMSfunctions"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SolarSpec/ScriptsAndFunctions"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/SolarSpec/LoadTDMSfunctions">View Demo</a>
+    <a href="https://github.com/SolarSpec/ScriptsAndFunctions">View Demo</a>
     ·
-    <a href="https://github.com/SolarSpec/LoadTDMSfunctions/issues">Report Bug</a>
+    <a href="https://github.com/SolarSpec/ScriptsAndFunctions/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SolarSpec/LoadTDMSfunctions/issues">Request Feature</a>
+    <a href="https://github.com/SolarSpec/ScriptsAndFunctions/issues">Request Feature</a>
   </p>
 </div>
 
@@ -100,7 +100,7 @@ Make sure MATLAB is installed. It is available for download in the Software Dist
 
 1. Clone the repo to your PC
    ```sh
-   git clone https://github.com/SolarSpec/LoadTDMSfunctions.git
+   git clone https://github.com/SolarSpec/ScriptsAndFunctions.git
    ```
 2. Open the appropriate script
    ```
@@ -137,14 +137,19 @@ _For more information on data filtering and decimation, please refer to the [Doc
 <!-- ROADMAP -->
 ## Roadmap
 
-- [X] Load multiple TDMS files
-- [X] Calculate ABS from TDMS
+- [X] General Scripts/Functions
+  - [X] Import and plot by folder
+  - [X] Import and plot by selected files
+  - [X] Efficient methods for finding max value and index
+- [X] LoadTDMSfunctions
+  - [X] Load multiple TDMS files
+  - [X] Calculate ABS from TDMS
   - [X] Import ABS from TDMS
-- [X] Import raw A and B trace
-- [X] Calculate logarithm data from linear data
-- [X] Calculate logarithm spaced data from linear data
+  - [X] Import raw A and B traces
+  - [X] Calculate logarithm data from linear data
+  - [X] Calculate logarithm spaced data from linear data
 
-See the [open issues](https://github.com/SolarSpec/LoadTDMSfunctions/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/SolarSpec/ScriptsAndFunctions/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -169,7 +174,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the BSD 3-Clause License. See `LICENSE.txt` for more information.
 
-Please refer to the TDMS reader directory to view the accompanying [`license.txt`](https://github.com/SolarSpec/LoadTDMSfunctions/blob/main/Matlab%20TDMS%20reader/license.txt)
+Please refer to the TDMS reader directory to view the accompanying [`license.txt`](https://github.com/SolarSpec/ScriptsAndFunctions/blob/main/Matlab%20TDMS%20reader/license.txt)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -178,7 +183,7 @@ Please refer to the TDMS reader directory to view the accompanying [`license.txt
 
 SolarSpec - [SolarSpec Website](https://solarspec.ok.ubc.ca/) - vidihari@student.ubc.ca
 
-Project Link: [https://github.com/SolarSpec/LoadTDMSfunctions](https://github.com/SolarSpec/LoadTDMSfunctions)
+Project Link: [https://github.com/SolarSpec/ScriptsAndFunctions](https://github.com/SolarSpec/ScriptsAndFunctions)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -186,22 +191,23 @@ Project Link: [https://github.com/SolarSpec/LoadTDMSfunctions](https://github.co
 ## Acknowledgments
 
 * [Group Leader - Dr. Robert Godin](https://solarspec.ok.ubc.ca/people/)
+* [Group Alumni - James Kivai](https://solarspec.ok.ubc.ca/people/)
 * [The Entire SolarSpec Team](https://solarspec.ok.ubc.ca/people/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/SolarSpec/LoadTDMSfunctions.svg?style=for-the-badge
-[contributors-url]: https://github.com/SolarSpec/LoadTDMSfunctions/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SolarSpec/LoadTDMSfunctions.svg?style=for-the-badge
-[forks-url]: https://github.com/SolarSpec/LoadTDMSfunctions/network/members
-[stars-shield]: https://img.shields.io/github/stars/SolarSpec/LoadTDMSfunctions.svg?style=for-the-badge
-[stars-url]: https://github.com/SolarSpec/LoadTDMSfunctions/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SolarSpec/LoadTDMSfunctions.svg?style=for-the-badge
-[issues-url]: https://github.com/SolarSpec/LoadTDMSfunctions/issues
-[license-shield]: https://img.shields.io/github/license/SolarSpec/LoadTDMSfunctions.svg?style=for-the-badge
-[license-url]: https://github.com/SolarSpec/LoadTDMSfunctions/blob/main/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/SolarSpec/ScriptsAndFunctions.svg?style=for-the-badge
+[contributors-url]: https://github.com/SolarSpec/ScriptsAndFunctions/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SolarSpec/ScriptsAndFunctions.svg?style=for-the-badge
+[forks-url]: https://github.com/SolarSpec/ScriptsAndFunctions/network/members
+[stars-shield]: https://img.shields.io/github/stars/SolarSpec/ScriptsAndFunctions.svg?style=for-the-badge
+[stars-url]: https://github.com/SolarSpec/ScriptsAndFunctions/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SolarSpec/ScriptsAndFunctions.svg?style=for-the-badge
+[issues-url]: https://github.com/SolarSpec/ScriptsAndFunctions/issues
+[license-shield]: https://img.shields.io/github/license/SolarSpec/ScriptsAndFunctions.svg?style=for-the-badge
+[license-url]: https://github.com/SolarSpec/ScriptsAndFunctions/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/haris-vidimlic-06730019b/
 [product-screenshot]: GeneralScripts_resources/Screenshot.png
