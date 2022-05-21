@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SolarSpec/LoadTDMSfunctions">
-    <img src="GeneralScripts_resources/logo.png" alt="SolarSpec" width="160" height="120">
+    <img src="GeneralFunctions_resources/logo.png" alt="SolarSpec" width="160" height="120">
   </a>
 
 <h3 align="center">General Scripts and Functions</h3>
@@ -123,10 +123,10 @@ Make sure MATLAB is installed. It is available for download in the Software Dist
 _Please note that the bottom of each CSV contains an extra row of information attributed to the BackgroundLevel data of each TDMS file. This is simply a convention to carry this data if it is loaded back into the PIAS app. If one does not intend to load it back into the app, you may delete this row or store the variables somewhere else in the CSV as to not lose it for future use._
 
   <div class="row">
-    <img src="GeneralScripts_resources/ExportButton.png" alt="Export">
+    <img src="GeneralFunctions_resources/ExportButton.png" alt="Export">
   </div>
   <div class="row" style="float:left">
-    <img src="GeneralScripts_resources/TopCSV.png" alt="Top" style="width:50%;height:50%;padding: 5px"><img src="GeneralScripts_resources/BottomCSV.png" alt="Bottom" style="width:50%;height:50%;padding: 5px">
+    <img src="GeneralFunctions_resources/TopCSV.png" alt="Top" style="width:50%;height:50%;padding: 5px"><img src="GeneralFunctions_resources/BottomCSV.png" alt="Bottom" style="width:50%;height:50%;padding: 5px">
   </div>
 
 
@@ -204,4 +204,4 @@ Project Link: [https://github.com/SolarSpec/LoadTDMSfunctions](https://github.co
 [license-url]: https://github.com/SolarSpec/LoadTDMSfunctions/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/haris-vidimlic-06730019b/
-[product-screenshot]: GeneralScripts_resources/Screenshot.png
+[product-screenshot]: GeneralFunctions_resources/Screenshot.png
