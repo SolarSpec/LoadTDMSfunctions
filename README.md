@@ -117,21 +117,13 @@ Make sure MATLAB is installed. It is available for download in the Software Dist
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Inside the GeneralFunctions folder includes general scripts for finding maximum values and the corresponding indices of an arbitrary input matrix. Also included are scripts describing how to select certain files from a folder or how to take all files of a given type (e.g. .txt or .csv) from a folder and then plot them against each other. 
+
+The LoadTDMSfunctions folder includes scripts for importing ABS or Raw channels from .tdms files, calculating ABS and changing linear to logarithmic spacing. Also included is the Matlab TDMS reader add-on toolbox which is needed to import .tdms files for each of these scripts; however, MATLAB 2022a has now included a readtdms function that can do this more efficiently.
 
 No screenshots of use yet. Comments in each script are self explanatory but examples will be added in the future if there is any confusion or assistance needed
-<!-- Here is a simple example of the app used on a small dataset. The filtering is turned on and we'd like to export all the kinetics data by clicking the "Export CSV Data" button. We can view where the file was saved in the text on the left panel and can then open the CSV file to view the data.
 
-_Please note that the bottom of each CSV contains an extra row of information attributed to the BackgroundLevel data of each TDMS file. This is simply a convention to carry this data if it is loaded back into the PIAS app. If one does not intend to load it back into the app, you may delete this row or store the variables somewhere else in the CSV as to not lose it for future use._
-
-  <div class="row">
-    <img src="GeneralFunctions_resources/ExportButton.png" alt="Export">
-  </div>
-  <div class="row" style="float:left">
-    <img src="GeneralFunctions_resources/TopCSV.png" alt="Top" style="width:50%;height:50%;padding: 5px"><img src="GeneralFunctions_resources/BottomCSV.png" alt="Bottom" style="width:50%;height:50%;padding: 5px">
-  </div>
-
-
-_For more information on data filtering and decimation, please refer to the [Documentation](https://www.mathworks.com/help/signal/ref/decimate.html#d123e21788)_ -->
+_For more information on any of the internal functions, please refer to the [MATLAB Documentation](https://www.mathworks.com/help/matlab/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
